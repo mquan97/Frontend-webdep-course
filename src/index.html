@@ -7,7 +7,41 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <div>Hello</div>
+    <header>
+      <h2>
+        Currency Converter
+      </h2>
+    </header>
+    <form>
+      <div>
+        <div>
+          <label>Base</label>
+        </div>
+      <div>
+        <select>
+          <option>EUR</option>
+          <option>USD</option>
+        </select>
+      </div>
+    </div>
+    <div>
+      <div>
+        <label for ="sum" >Sum</label>
+      </div>
+      <div>
+        <input type ="number" id ="sum" name ="sum" value ="1" step ="0.01" min ="0.02" />
+      </div>
+      <div>&euro;</div>
+    </div>
+    <div>
+      <input type ="submit" value ="Convert" />
+    </div>
+    </form>
+    <div>Loading...</div>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+    </ul>
     <script type="text/javascript" src="/bundle.js"></script>
   </body>
 </html>
